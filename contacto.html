@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SuperPiezak - Contacto</title>
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="encabezado">
+         
+            <a href="index.html">
+                <img class="logo" src="Imagenes/imagen 1.png" alt="SuperPiezak" style="width: 100%; max-width: 100px; height: auto;">
+            </a>
+
+            <h1 class="t_pricipal">SuperPiezak</h1>
+
+            <nav class="lista">
+                <a href="index.html" class="enlace-menu">Inicio</a>
+                <a href="productos.html"class="enlace-menu">Productos</a>
+                <a href="contacto.html"class="enlace-menu activo">Contacto</a>
+            </nav>
+    
+    </header>
+
+    <div class="contacto-fondo">
+
+        <section class="contacto-card">
+
+            <div class="contacto-header">
+                <h2>Envíanos un mensaje</h2>
+                <p>¿Tienes dudas sobre algún repuesto? Escríbenos y te responderemos en menos de 24 horas.</p>
+            </div>
+
+            <form>
+                <div class="fila-doble">
+                    <div class="campo">
+                        <label for="nombre">Nombre</label>
+                        <div class="campo-input">
+                            <input type="text" id="nombre" name="nombre" placeholder="Tu nombre completo" required>
+                        </div>
+                    </div>
+                    <div class="campo">
+                        <label for="correo">Correo electrónico</label>
+                        <div class="campo-input">
+                            <input type="email" id="correo" name="correo" placeholder="tu@email.com" required>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="campo">
+                    <label for="asunto">Asunto</label>
+                    <div class="campo-input">
+                        <input type="text" id="asunto" name="asunto" placeholder="¿Cómo podemos ayudarte?" required>
+                    </div>
+                </div>
+
+                <div class="campo">
+                    <label for="mensaje">Mensaje</label>
+                    <div class="campo-input">
+                        <textarea id="mensaje" name="mensaje" rows="4" placeholder="Cuéntanos los detalles de tu pedido..." required></textarea>
+                    </div>
+                </div>
+
+                <div class="contenedor-boton">
+                    <button type="submit" class="btn-enviar">Enviar mensaje</button>
+                </div>
+            </form>
+
+        </section>
+
+    </div>
+
+    <section class="info-adicional">
+
+        <div><strong>Teléfono:</strong>&nbsp;(+57 ) 3212897653</div>
+        <div><strong>Correo:</strong>&nbsp;contacto@superpiezak.com</div>
+        <div><strong>Horario:</strong>&nbsp;Lun-Sáb, 8:00 a.m. - 6:00 p.m.</div>
+    </section>
+
+    <footer>
+        <p>Derechos de autor SuperPiezak</p>
+
+     </footer>
+</body>
+</html>
